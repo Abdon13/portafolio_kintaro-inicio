@@ -121,7 +121,7 @@ export const Header = () => {
 
             <div className="flex gap-2 mt-4">
                 <a href={getWhatsAppLink(phoneNumber)} 
-                className="bg-black text-white rounded-mb flex fap-1
+                className="bg-black text-white rounded-2xl flex fap-1
                 items-center justify-center px-5 font-semibold"
                 target="_blank"
                 aria-label="Contactar por Whatsapp"
