@@ -211,48 +211,12 @@ export const skills = [
 	},
 	{
 		id: 2,
-		imageSrc: '/nextjs.png',
-		technologyName: 'Next.js',
-		level: 'Intermedio',
-		context: 'Full-Stack',
-		bgColor: '#F5F5F5',
-		borderColor: '#BDBDBD',
-	},
-	{
-		id: 3,
 		imageSrc: '/nodejs.png',
 		technologyName: 'Node.js',
 		level: 'Avanzado',
 		context: 'Backend',
 		bgColor: '#E8F5E8',
 		borderColor: '#81C784',
-	},
-	{
-		id: 4,
-		imageSrc: '/nestjs.png',
-		technologyName: 'NestJS',
-		level: 'Avanzado',
-		context: 'Backend',
-		bgColor: '#FCE4EC',
-		borderColor: '#F48FB1',
-	},
-	{
-		id: 5,
-		imageSrc: '/gsap.png',
-		technologyName: 'GSAP',
-		level: 'Intermedio',
-		context: 'Animations',
-		bgColor: '#F1F8E9',
-		borderColor: '#AED581',
-	},
-	{
-		id: 6,
-		imageSrc: '/tailwindcss.png',
-		technologyName: 'Tailwind CSS',
-		level: 'Avanzado',
-		context: 'UI/UX',
-		bgColor: '#E0F7FA',
-		borderColor: '#80DEEA',
 	},
 	{
 		id: 7,
@@ -263,6 +227,36 @@ export const skills = [
 		bgColor: '#E3F2FD',
 		borderColor: '#90CAF9',
 	},
+	{
+		id: 3,
+		imageSrc: '/nextjs.png',
+		technologyName: 'Next.js',
+		level: 'Intermedio',
+		context: 'Full-Stack',
+		bgColor: '#F5F5F5',
+		borderColor: '#BDBDBD',
+	},
+	
+	{
+		id: 4,
+		imageSrc: '/nestjs.png',
+		technologyName: 'NestJS',
+		level: 'Avanzado',
+		context: 'Backend',
+		bgColor: '#FCE4EC',
+		borderColor: '#F48FB1',
+	},
+	
+	{
+		id: 6,
+		imageSrc: '/tailwindcss.png',
+		technologyName: 'Tailwind CSS',
+		level: 'Avanzado',
+		context: 'UI/UX',
+		bgColor: '#E0F7FA',
+		borderColor: '#80DEEA',
+	},
+	
 	{
 		id: 8,
 		imageSrc: '/javascript.png',
@@ -282,24 +276,6 @@ export const skills = [
 		borderColor: '#90CAF9',
 	},
 	{
-		id: 10,
-		imageSrc: '/rust.png',
-		technologyName: 'Rust',
-		level: 'Básico',
-		context: 'Systems',
-		bgColor: '#FFF3E0',
-		borderColor: '#FFCC80',
-	},
-	{
-		id: 11,
-		imageSrc: '/flutter.png',
-		technologyName: 'Flutter',
-		level: 'Intermedio',
-		context: 'Mobile',
-		bgColor: '#E3F2FD',
-		borderColor: '#90CAF9',
-	},
-	{
 		id: 12,
 		imageSrc: '/vuejs.png',
 		technologyName: 'Vue.js',
@@ -308,7 +284,7 @@ export const skills = [
 		bgColor: '#E8F5E8',
 		borderColor: '#A5D6A7',
 	},
-	{
+	/**{
 		id: 13,
 		imageSrc: '/graphql.png',
 		technologyName: 'GraphQL',
@@ -335,15 +311,7 @@ export const skills = [
 		bgColor: '#FFF8E1',
 		borderColor: '#FFCC02',
 	},
-	{
-		id: 16,
-		imageSrc: '/firebase.png',
-		technologyName: 'Firebase',
-		level: 'Avanzado',
-		context: 'Backend',
-		bgColor: '#FFF8E1',
-		borderColor: '#FFD54F',
-	},
+	**/
 	{
 		id: 17,
 		imageSrc: '/mongodb.png',
@@ -362,15 +330,7 @@ export const skills = [
 		bgColor: '#E3F2FD',
 		borderColor: '#90CAF9',
 	},
-	{
-		id: 19,
-		imageSrc: '/unity.png',
-		technologyName: 'Unity',
-		level: 'Básico',
-		context: 'Game Dev',
-		bgColor: '#FAFAFA',
-		borderColor: '#E0E0E0',
-	},
+	
 	{
 		id: 20,
 		imageSrc: '/csharp.png',
@@ -380,31 +340,6 @@ export const skills = [
 		bgColor: '#E8F5E8',
 		borderColor: '#A5D6A7',
 	},
-	{
-		id: 21,
-		imageSrc: '/storybook.png',
-		technologyName: 'Storybook',
-		level: 'Intermedio',
-		context: 'UI Tools',
-		bgColor: '#FCE4EC',
-		borderColor: '#F8BBD9',
-	},
-	{
-		id: 22,
-		imageSrc: '/fastapi.png',
-		technologyName: 'FastAPI',
-		level: 'Intermedio',
-		context: 'Backend',
-		bgColor: '#E0F2F1',
-		borderColor: '#80CBC4',
-	},
-	{
-		id: 23,
-		imageSrc: '/elasticsearch.png',
-		technologyName: 'Elasticsearch',
-		level: 'Básico',
-		context: 'Search',
-		bgColor: '#E0F7FA',
-		borderColor: '#80DEEA',
-	},
+	
+	
 ];
