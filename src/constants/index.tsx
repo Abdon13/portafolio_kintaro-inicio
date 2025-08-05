@@ -164,38 +164,38 @@ export const projects: Project[] = [
 export const experience = [
 	{
 		id: 1,
-		position: 'Lead Front-End Developer',
-		timeRange: 'Ene 2023 – Jun 2025',
-		companyName: 'SpringTech Inc.',
-		companyLocation: 'Tokio, Japón',
+		position: 'Front-End Developer',
+		timeRange: 'Sep 2023 – May 2025',
+		companyName: 'Tiger B. E.',
+		companyLocation: 'México',
 		description:
-			'Lideré la migración de un monolito React a micro-frontends con Module Federation; mejoré accesibilidad (WCAG 2.1) y performance (Lighthouse > 90).',
+			'Mi mayor aportación fue implementar una arquitectura modular en el frontend que redujo los tiempos de desarrollo en futuras vistas en más del 30%, además de colaborar en el refactor de componentes reutilizables, mejorando la mantenibilidad del sistema.',
 		technologiesUsed: [
 			'React',
-			'Webpack Module Federation',
-			'Storybook',
-			'Lighthouse',
+			'TypeScript',
+			'MySQL',
+			'Tailwind CSS',
 		],
 	},
 	{
 		id: 2,
-		position: 'Full-Stack Freelance',
-		timeRange: 'Jul 2020 – Dic 2022',
-		companyName: 'Varios clientes startup',
-		companyLocation: 'Remoto',
+		position: 'Full-Stack Developer',
+		timeRange: 'Ene 2023 – Ago 2024',
+		companyName: 'Sistemas, información y Servicios',
+		companyLocation: 'México',
 		description:
-			'Entregué más de 15 proyectos: e-commerce, dashboards y APIs REST/GraphQL; monté pipelines CI/CD en AWS y DigitalOcean.',
-		technologiesUsed: ['Node.js', 'NestJS', 'AWS', 'GitHub Actions'],
+			'Desarrollo de plataforma de gestión de productos y ventas con un dashboard interactivo, integrando un sistema de notificaciones en tiempo real y una API RESTful para la gestión de datos.',
+		technologiesUsed: ['PostgreSQL', 'Express', 'React', 'Node.js', 'Tailwind CSS'],
 	},
 	{
 		id: 3,
-		position: 'Instructor React & GSAP',
-		timeRange: '2018 – 2020',
-		companyName: 'CodeCamp Japón',
+		position: 'Full-Stack Freelance',
+		timeRange: '2022 – 2023',
+		companyName: 'Freelance',
 		companyLocation: 'Online',
 		description:
-			'Diseñé y dicté cursos de animaciones avanzadas con GSAP en React, usando miniaturas al estilo Golden Boy con chalecos de aprendizaje.',
-		technologiesUsed: ['React', 'GSAP', 'Tailwind CSS', 'Figma'],
+			'Diseñé plataforma administrativa de tareas y proyectos para una empresa de logística, integrando un sistema de gestión de usuarios y un panel de control interactivo.',
+		technologiesUsed: ['Mongo', 'Express', 'React', 'Node.js', 'Tailwind CSS', 'Github'],
 	},
 ];
 
