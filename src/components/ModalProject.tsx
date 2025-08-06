@@ -1,4 +1,4 @@
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+//import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import type { Project } from "../types";
 import { IoMdClose, IoMdCode } from "react-icons/io";
 
@@ -24,8 +24,8 @@ export const ModalProject = ({selectedProject, setSelectedProject}: Props) => {
                     <h2 className="text-2xl font-bold">
                         {selectedProject.name}
                     </h2>
-
-                    <div className="flex items-center gap-3">
+ 
+                  {/**   <div className="flex items-center gap-3">
                         <a href={selectedProject.githubUrl} 
                             className="ml-4 text-black"
                             target="_blank"
@@ -42,7 +42,7 @@ export const ModalProject = ({selectedProject, setSelectedProject}: Props) => {
                         >
                             <FaExternalLinkAlt size={22} />
                         </a>
-                    </div>
+                    </div>*/}
                 </div>
 
                 <p className="text-gray-600 text-sm sm:text-base md:text-lg flex-1 md:flex-none">

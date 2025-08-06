@@ -4,6 +4,7 @@ import {
 	FaRegBookmark,
 	FaRegUser,
 } from 'react-icons/fa';
+
 import { FaXTwitter } from 'react-icons/fa6';
 import { IoGridOutline } from 'react-icons/io5';
 import type { Project } from '../types';
@@ -14,7 +15,7 @@ export const personalInfo = {
 	location: 'México, México',
 	occupation: 'Frontend Developer & Traveling Tech Enthusiast',
 	overview:
-		'A mis 28 años busco aprender de la vida en la práctica! Hoy, tras recorrer un largo camino, domino tecnologías front-end y back-end, y sigo buscando proyectos que me reten.',
+		"Soy desarrollador frontend con una pasión por crear experiencias web interactivas y fáciles de usar. Con experiencia en HTML, CSS, JavaScript, y frameworks como React, me enfoco en diseñar interfaces atractivas y funcionales que ofrezcan una excelente experiencia al usuario.",
 	socialLinks: [
 		{
 			id: 1,
@@ -61,16 +62,15 @@ export const tabs = [
 export const projects: Project[] = [
 	{
 		id: 1,
-		name: 'QuickOS',
+		name: 'Administrador de empleados',
 		description:
-			'Un sistema operativo minimalista inspirado en el episodio OVA donde Kintarō rehace toda la plataforma: interfaz modular, lanzador de apps y accesos rápidos, diseñado para ser intuitivo incluso para novatos.',
+			'Un sistema de administración minimalista con interfaz modular, administración intuitiva y accesos rápidos, diseñado para ser intuitivo incluso para novatos.',
 		technologies: [
-			'Rust',
-			'WebAssembly',
-			'Electron',
 			'React',
-			'Tailwind CSS',
-			'GraphQL',
+			'Express',
+			'MongoDB',
+			'Node.js',
+			'Tailwind CSS'
 		],
 		projectUrl: '',
 		githubUrl: '',
@@ -78,13 +78,13 @@ export const projects: Project[] = [
 	},
 	{
 		id: 2,
-		name: 'TutorAI',
+		name: 'AdminTask',
 		description:
-			'Plataforma de tutoría inteligente que analiza el código del alumno en tiempo real y sugiere correcciones; nace de la habilidad de Kintarō para aprender ultra rápido y enseñar a otros.',
+			'Plataforma de administración de tareas en tiempo real.',
 		technologies: [
-			'Next.js',
-			'TensorFlow.js',
-			'Socket.IO',
+			'React',
+			'Express',
+			'MongoDB',
 			'TypeScript',
 			'Supabase',
 			'Docker',
@@ -95,13 +95,13 @@ export const projects: Project[] = [
 	},
 	{
 		id: 3,
-		name: 'TaskForge',
+		name: 'AdminProduct',
 		description:
-			'App de gestión de tareas con gamificación: cada “misión” se desbloquea cuando completas retos de código; rinde homenaje al estilo de entrenamiento de Kintarō con chalecos de peso.',
+			'App de gestión de productos: Sistema de inventario para tienda donde se puede dar seguimiento de forma concisa y rápida, llevando el registro de todos tus productos.',
 		technologies: [
-			'Flutter',
-			'Firebase (Firestore, Auth)',
-			'GitHub Actions',
+			'React',
+			'PostgreSQL',
+			'Express',
 			'Node.js',
 			'NestJS',
 		],
@@ -113,7 +113,7 @@ export const projects: Project[] = [
 		id: 4,
 		name: 'Pictogram Adventure',
 		description:
-			'Juego educativo que combina rutas de aprendizaje basadas en pictogramas (inspirado en Arasaac) con una narrativa de viaje por Japón, como las andanzas de Kintarō.',
+			'Juego educativo que combina rutas de aprendizaje basadas en pictogramas ',
 		technologies: [
 			'Unity',
 			'C#',
@@ -129,7 +129,7 @@ export const projects: Project[] = [
 		id: 5,
 		name: 'AnimeSearch Pro',
 		description:
-			'Motor de búsqueda avanzada de OVAs y series clásicas con IA para recomendaciones personalizadas; incluye un “modo Golden Boy” que muestra curiosidades del manga.',
+			'Motor de búsqueda avanzada de OVAs y series clásicas con IA para recomendaciones personalizadas; muestra curiosidades del manga.',
 		technologies: [
 			'Python',
 			'FastAPI',
@@ -146,7 +146,7 @@ export const projects: Project[] = [
 		id: 6,
 		name: 'MapMyJourney',
 		description:
-			'Webapp de mapas interactivos donde registras tus viajes (al estilo de Kintarō en bicicleta) y generas un diario de código y fotos con IA para resúmenes automáticos.',
+			'Webapp de mapas interactivos donde registras tus viajes y generas un diario de código y fotos con IA para resúmenes automáticos.',
 		technologies: [
 			'Gatsby',
 			'Mapbox GL',
